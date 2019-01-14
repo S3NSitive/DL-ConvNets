@@ -1,7 +1,6 @@
 from keras.models import Model
 from keras.layers import Input, Dense, Conv2D
 from keras.layers import Flatten, MaxPool2D
-from keras.layers import BatchNormalization
 
 
 def vggnet(input_shape, classes):
